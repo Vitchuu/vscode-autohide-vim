@@ -1,11 +1,11 @@
 {
-    "name": "vscode-autohide",
-    "displayName": "Auto Hide",
-    "description": "A tool to autohide the sidebar and terminal panel.",
+    "name": "vscode-autohide-vim",
+    "displayName": "Auto Hide - VIM",
+    "description": "An edited version of Sirmspencer's auto hide, made to be more suited for VIM-based workflows.",
     "version": "1.0.6",
     "publisher": "sirmspencer",
     "repository": {
-        "url": "https://github.com/sirmspencer/vscode-autohide"
+        "url": "https://github.com/Vitchuu/vscode-autohide-vim"
     },
     "icon": "Images/Icons/Logo_128.png",
     "engines": {
@@ -50,16 +50,6 @@
                     "type": "boolean",
                     "default": true,
                     "description": "Hide the References panel (`Go to References`) when the user clicks into a text editor."
-                },
-                "autoHide.sideBarDelay": {
-                    "type": "number",
-                    "default": 450,
-                    "description": "How long to wait before hiding the side bar. A delay prevents text from being selected. A longer delay allows the horizontal scroll to adjust to the change in selection before the side bar hiding causes the horizontal scroll to adjust, avoiding conflicts."
-                },
-                "autoHide.panelDelay": {
-                    "type": "number",
-                    "default": 300,
-                    "description": "How long to wait before hiding the panel. Same as for the side bar when the panel is on the side.  If the panel is on the bottom, there is no need for delay."
                 },
                 "autoHide.hideOnOpen": {
                     "type": "boolean",
