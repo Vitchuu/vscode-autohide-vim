@@ -1,7 +1,7 @@
-### *IMPORTANT!!*
-# This is a quick and dirty edit of the original auto-hide extension. I actually don't know how to make an extension and have never worked with Typescript.
-# All I've done is remove some code to make this work with a keyboard reliant layout. Here be dragons!
-# All the text under this is from the original extension's README.
+# *IMPORTANT!!*
+### This is a quick and dirty edit of the original auto-hide extension. I actually don't know how to make an extension and have never worked with Typescript.
+### All I've done is remove some code to make this work with a keyboard reliant layout. Here be dragons!
+### All the text under this is from the original extension's README.
 
 
 ## *Requires Visual Studio Code, version 1.43 or higher
