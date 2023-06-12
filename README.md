@@ -1,6 +1,6 @@
 # *IMPORTANT!!*
 ### This is a quick and dirty edit of the original auto-hide extension. I actually don't know how to make an extension and have never worked with Typescript.
-### All I've done is remove some code to make this work with a keyboard reliant layout. Here be dragons!
+### All I've done is remove some code to make this work with a keyboard reliant layout, it no longer checks if you switched focus using the mouse and the delay option has been removed.
 ### All the text under this is from the original extension's README.
 
 
