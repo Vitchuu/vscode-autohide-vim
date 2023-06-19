@@ -2,7 +2,7 @@
     "name": "vscode-autohide-vim",
     "displayName": "Auto Hide - VIM",
     "description": "An edited version of Sirmspencer's auto hide, made to be more suitable for VIM-based workflows.",
-    "version": "1.0.1",
+    "version": "1.0.7",
     "publisher": "Vitchu",
     "repository": {
         "url": "https://github.com/Vitchuu/vscode-autohide-vim"
