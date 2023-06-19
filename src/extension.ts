@@ -23,10 +23,6 @@ export function activate(context: vscode.ExtensionContext) {
                 vscode.commands.executeCommand("closeReferenceSearch");
             }
 
-            if (config.autoHidePanel) {
-                vscode.commands.executeCommand("workbench.action.closePanel");
-            }
-
             if (config.autoHideSideBar) {
                 vscode.commands.executeCommand("workbench.action.closeSidebar");
             }
