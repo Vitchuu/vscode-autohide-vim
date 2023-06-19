@@ -3,7 +3,7 @@
     "displayName": "Auto Hide - VIM",
     "description": "An edited version of Sirmspencer's auto hide, made to be more suited for VIM-based workflows.",
     "version": "1.0.6",
-    "publisher": "sirmspencer",
+    "publisher": "Vitchu",
     "repository": {
         "url": "https://github.com/Vitchuu/vscode-autohide-vim"
     },
@@ -82,7 +82,7 @@
         "@types/mocha": "^2.2.32",
         "@types/node": "^6.0.40",
         "mocha": "^7.2.0",
-        "typescript": "^2.9.2",
+        "typescript": "^5.1.3",
         "vscode": "^1.1.36"
     }
 }

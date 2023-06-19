@@ -1,6 +1,5 @@
 "use strict";
 import * as vscode from "vscode";
-import { TextEditorSelectionChangeKind } from "vscode"
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -15,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
         let pathIsFile = path.includes(".") || path.includes("\\") || path.includes("/");
 
         if (selection.selections.length != 1                      // no selections or multiselections
-            || selection.selections.find(a=>a.isEmpty) == null    // multiselections
+            || selection.selections.find(a => a.isEmpty) == null    // multiselections
             || !pathIsFile) {                                     // The debug window editor
             return;
         } else {
@@ -30,15 +29,15 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     context.subscriptions.push(
-        vscode.commands.registerCommand("autoHide.toggleHidePanel", async() => {
+        vscode.commands.registerCommand("autoHide.toggleHidePanel", async () => {
             let config = vscode.workspace.getConfiguration("autoHide");
             await config.update("autoHidePanel", !config.autoHidePanel, vscode.ConfigurationTarget.Workspace);
         }));
     context.subscriptions.push(
-        vscode.commands.registerCommand("autoHide.toggleHideSideBar", async() => {
+        vscode.commands.registerCommand("autoHide.toggleHideSideBar", async () => {
             let config = vscode.workspace.getConfiguration("autoHide");
             await config.update("autoHideSideBar", !config.autoHideSideBar, vscode.ConfigurationTarget.Workspace);
         }));
 }
 
-export function deactivate() {}
+export function deactivate() { }
